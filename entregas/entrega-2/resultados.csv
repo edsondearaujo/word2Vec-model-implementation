@@ -1,0 +1,5 @@
+Método,Acurácia,Melhor (S/N)
+LSTM uni-direcional,8.784,3.573
+LSTM bi-direcional,8.915,3.395
+GRU uni-direcional,8.840,3.799
+GRU bi-direcional,9.958,4.355
