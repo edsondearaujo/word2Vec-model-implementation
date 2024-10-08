@@ -1,6 +1,9 @@
 # Word2Vec Model Implementation
-Autor: [Edson Soares](https://github.com/edsondearaujo)
-<br><br>
+
+Este repositório foi criado para realizar as atividades e entregas do curso [**Processamento Neural de Linguagem Natural em Português I**](https://www.coursera.org/learn/processamento-neural-linguagem-natural-em-portugues-i), oferecido pela **Universidade de São Paulo (USP)**, realizado na plataforma de ensino Coursera.
+
+## Descrição do Projeto
+
 Este projeto implementa o modelo **Word2Vec**, amplamente utilizado em **Processamento de Linguagem Natural (PLN)** para criar vetores de palavras (word embeddings) que capturam relações semânticas entre palavras. A implementação inclui tanto o modelo **Skip-gram** quanto funções de custo usando **softmax ingênuo** e **amostragem negativa** (negative sampling).
 
 ## Funcionalidades Principais
@@ -35,3 +38,16 @@ Para rodar os testes e verificar a implementação, basta executar o arquivo `wo
 
 ```bash
 python word2vec.py
+```
+
+Isso executará os testes integrados que verificam a implementação do modelo.
+
+## Tecnologias Utilizadas
+- **Python**: Linguagem principal utilizada no projeto.
+- **NumPy**: Utilizada para operações matriciais e cálculos numéricos.
+- **Random**: Usado para geração de amostras negativas e inicializações aleatórias.
+
+## Contribuição
+Este projeto está aberto para melhorias. Se você encontrar qualquer problema ou tiver sugestões, fique à vontade para abrir uma **issue** ou enviar um **pull request**.
+
+**Autor**: [Edson Soares](https://github.com/edsondearaujo)
